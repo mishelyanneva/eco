@@ -1,0 +1,172 @@
+<!Doctype html>
+<html>
+<head>
+<title>Art_Eco</title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body background="picture/66.png">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">&nbsp MY</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav"> 
+          <li><a href="Index.html">Еко щрихи</a></li>
+          <li><a href="greenhouse effect.html">Парников ефект</a></li>
+          <li><a href="Acid rain.html">Киселинен дъжд</a></li>
+          <li><a href="Smoke.html">Дим и прахови частици</a></li>
+          <li><a href="Ozone depletion.html">Изтъняване на озоновия слой</a></li>
+          <li><a href="Eco_calendar_2021.html">Екологичен календар - 2021г.</a></li>
+          <li class="active"><a href="Art.html">Eko art</a></li>
+          <li><a href="For me.html">За мен</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="jumbotron text-center">
+        <h1 class="e5">Eko art</h1>
+        <p>Както всяка рисунка започва с щриха,<br> така трябва да се постави началото на осъзнаването на екологичните проблеми!</p> 
+      </div>
+     
+  
+<!-- Modal for full size images on click-->
+<div id="modal01" class="modal black" style="padding-top:0" onclick="this.style.display='none'">
+  <span class="button black xlarge display-topright">×</span>
+  <div class="modal-content animate-zoom center transparent padding-0">
+    <img id="img01" class="image">
+    <p id="caption"></p>
+  </div>
+</div>
+
+<script>
+  // Script to open and close sidebar
+  function open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+   
+  function close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  </script>
+  
+
+         <div class="bg-1">
+            <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-4">
+                <br>
+                <div class="thumbnail"><img src="picture/2.png" onclick="onClick(this)"  width="400" height="300">
+                    <p><strong>Земята е нашият дом.</strong></p>
+                    <p>Можем ли дa живеем yдобно без последствия за oколната срeда?<br> 
+                        Kaк дa nроизвеждаме, без да замърсяваме? <br>
+                        Kaк дa използваме благатa, нo и да пазим Земяma? <br>
+                        Omговорността е само наша!</p></div>  
+              <div class="thumbnail"><img  src="picture/38.jpg" onclick="onClick(this)" width="400" height="300"></div>
+                <div class="thumbnail"><img src="picture/60.jpg"onclick="onClick(this)" width="400" height="300"></div>
+                <div class="thumbnail"><img src="picture/61.png"onclick="onClick(this)" width="400" height="300"><br>
+                <p>В природата няма възмездие или <br>наказание, а само последствия.<br> (Робърт Ингерсол).</p></div>
+                <div class="thumbnail"> <img src="picture/0.png" onclick="onClick(this)" width="400" height="300"></div>
+                <div class="thumbnail"> <img src="picture/35.png"onclick="onClick(this)"  width="400" height="300"><br>
+                <p>Не може да очакваме милост от<br> природата след това, което <br>сме направили с нея.</p></div>
+                <div class="thumbnail"> <img src="picture/64.png" onclick="onClick(this)" width="400" height="300"></div>
+                <div class="thumbnail"> <img src="picture/3.png" onclick="onClick(this)" width="400" height="300"></div>
+            </div>
+            <div class="col-sm-4">
+                <br>
+                <div class="thumbnail"><img src="picture/9.png" onclick="onClick(this)" width="400" height="300"></div> 
+                <div class="thumbnail"><img src="picture/36.png"onclick="onClick(this)"  width="400" height="300"></div>
+                <div class="thumbnail"><img src="picture/25.png" onclick="onClick(this)"width="400" height="300"><br>
+                <p>Когато се чувствате зле - слушайте природата.<br> Мълчанието на света успокоява 
+                    <br>по-добре от милиони ненужни думи.<br> (Конфуций).</p></div>
+                <div class="thumbnail"><img src="picture/34.png" onclick="onClick(this)"width="400" height="300"></div>
+                <div class="thumbnail"><img src="picture/51.png" onclick="onClick(this)"width="400" height="300"></div>
+                <div class="thumbnail"> <img src="picture/49.png" onclick="onClick(this)"width="400" height="300"></div>
+                <div class="thumbnail"> <img src="picture/11.png" onclick="onClick(this)"width="400" height="300"><br>
+                <p> Природата може без човек,<br> но той не може без нея.<br>(Али Абшерони).</p></div>
+                <div class="thumbnail"> <img src="picture/62.png" onclick="onClick(this)" width="400" height="300"></div>
+
+              </div>
+            <div class="col-sm-4">
+                <br>
+                <div class="thumbnail"><img src="picture/42.2.jpg" width="400" height="300"><br>
+                    <p>Изкуството завършва онова, което <br>природата не може да завърши. <br>
+                        Художникът ни дава възможност да <br>опознаем неизпълнените цели 
+                        на природата.<br> (Аристотел).</p></div> 
+                <div class="thumbnail"><img src="picture/42.png" width="400" height="300"></div>
+                <div class="thumbnail"> <img src="picture/31.png" width="400" height="300"> </div>
+                    <div class="thumbnail"><img src="picture/30.jpg" width="400" height="300"><br>
+                        <p> Природата винаги е права.<br>  Грешките и заблудите произлизат от човека.<br> (Йохан Гьоте).</p>
+                    </div>
+                    <div class="thumbnail"><img src="picture/29.png" width="400" height="300"><br>
+                    <p>Природата ...<br> събужда нуждата от любов в нас ... <br> Иван Сергеевич Тургенев</p></div>
+                    <div class="thumbnail"><img src="picture/63.png" width="400" height="300"></div>
+                    <div class="thumbnail"><img src="picture/15.png" width="400" height="300"></div>
+                    <div class="thumbnail"><img src="picture/46.jpg" width="400" height="300"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div id="modal01" class="modal black" style="padding-top: 0px; display: block;" onclick="this.style.display='none'">
+          <span class="button black xlarge display-topright">×</span>
+          <div class="modal-content animate-zoom center transparent padding-64">
+            <img id="img01" class="image" src="https://www.w3schools.com/w3images/girl.jpg">
+            <p id="caption">Canoeing again</p>
+          </div>
+        </div>
+
+       
+    
+      
+    
+        <hr class="we">
+        <footer class="container-fluid1 text-center">
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+          <p>Art accounts</p>
+          <div align="center">
+          <p><a href="https://www.instagram.com/art_mishel_yanneva/?hl=bg">
+            <img src="picture/i2.png"alt="ne se vizuelizira" title="greenhouse effect" 
+            class="img-responsive"  width="55px"; height="55px"></a></p>
+          <p></p><a href="https://www.facebook.com/art_mishel_yanneva-113453790099106">
+              <img src="picture/f.png"alt="ne se vizuelizira" title="greenhouse effect" 
+              class="img-responsive"  width="55px"; height="55px"></a></p></div></div>
+              <div class="col-sm-6" >
+                <p>Personal accounts</p>
+                <div align="center">
+               <p> <a href="https://www.instagram.com/mishelyanneva/">
+                  <img src="picture/i2.png"alt="ne se vizuelizira" title="greenhouse effect" 
+                  class="img-responsive"  width="55px"; height="55px"></a></p>
+                <p><a href="https://www.facebook.com/mishel.yanneva">
+                    <img src="picture/f.png"alt="ne se vizuelizira" title="greenhouse effect" 
+                    class="img-responsive"  width="55px"; height="55px"></a></p></div></div>
+                  </div>
+              </div>
+        </footer>
+
+
+</body>
+</html>

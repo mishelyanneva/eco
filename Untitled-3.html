@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+<head>
+<title>Art_Eco</title>
+<link type="text/css" rel="stylesheet" href="Untitled-2.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<section id="portfolio">
+    <div class="project">
+        <img  src="picture/38.jpg"  width="400" height="300">
+        <div class="grid-overlay">
+            <button class="viewbutton">View more</button>
+        </div>
+        </div>
+</section>
+
+<section id="portfolio">
+    <div class="project">
+  <img src="picture/12.png" width="400" height="300"></a>
+  <div class="grid-overlay">
+    <button class="viewbutton">View more</button>
+</div>
+</div>
+</section>
+
+<div class="overlay">
+<div class="overlay-inner">
+    <button class="close">Close X</button>
+</div>
+</div>
+
+
+<script>
+    const buttons = document.querySelectorAll('.project');
+    const overlay = document.querySelector('.overlay');
+    const overlayImage = document.querySelector('.overlay-inner img');
+
+    function open(e){ overlay.classList.add('open');
+            const scr = e.currentTarget.querySelector('img').scr;
+            overlayImage.scr = scr;}
+
+    function close(){overlayclassList.remove('open')}
+
+    button.forEach(button => button.addEventListener('click', open));
+    overlay.addEventListener('click', close);
+</script>
+

@@ -1,0 +1,198 @@
+/* greenhouse_effect */
+.col12{ line-height: 1.8; 
+    font-size: 13pt; 
+    color: #573636;
+    text-align: justify;
+    text-justify: inter-word; }
+
+.e5{text-shadow: 3px 3px #c8b7c9; 
+        text-justify: inter-word;}
+
+ /* smoke */
+.zagl{ line-height: 1.8; 
+    font-size: 15pt; 
+    color: #573636;
+    text-align: justify;
+    text-justify: inter-word; }
+.col1{line-height: 1.8; 
+    font-size: 12pt;  
+    color: #391313; 
+    text-align: justify;
+    text-justify: inter-word;}
+.col2{line-height: 1.3; 
+    font-size: 12pt;  
+    color: #391313; 
+    text-align: justify;
+    text-justify: inter-word;}
+.e3{text-shadow: 3px 3px #b85e81;
+    text-justify: inter-word;}
+.e4{text-shadow: 1px 1px #624664;
+          color: #f3e6ff; 
+          line-height: 1.5;
+          text-align: justify;
+          text-justify: inter-word;}
+
+
+/* ozone depletion */
+.zag{ line-height: 1.8; font-size: 15pt; color: #573636;
+    text-justify: inter-word; 
+    }
+    .ez {line-height: 1.8; font-size: 70pt;
+        text-align: center;}
+      
+    /* Index */
+
+
+ /*Acid rain*/
+ .e2{text-shadow: 3px 3px #b85e81;
+    text-justify: inter-word;}
+
+
+    .we{width: 79%;}
+
+    .container-fluid1{padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        color: inherit;
+        background-color: #c8b7c9;
+        color:white;}
+
+    .container-fluid2{padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            color: inherit;
+            background-color: #ffccdd;
+            color:white;}
+ /*For me*/
+    .person {border: 10px solid transparent;
+                margin-bottom: 25px;
+                width: 80%;
+                height: 80%;
+                opacity: 0.9;
+              }
+
+    .se{ line-height: 1.8; font-size: 24pt;
+        text-align: center; }
+
+    .for{font-size: 18pt; color:#bd3a6c ;
+        text-justify: inter-word; }
+
+    .co{ font-size: 12pt;  
+        text-align: justify;}
+
+
+
+/*Art*/
+.transparent, .hover-none:hover {
+    background-color: transparent!important;
+}
+    .padding-64 {
+        padding-top: 64px!important;
+        padding-bottom: 64px!important;
+    }
+
+    .padding-0 {
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+
+    .art {
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;}
+
+    .center {
+        text-align: center!important;
+    }
+    .animate-zoom {
+        animation: animatezoom 0.6s;
+    }
+    
+    
+    .modal-content {
+        margin: auto;
+        background-color: #fff;
+        position: relative;
+        padding: 0;
+        outline: 0;
+        width: 600px;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    
+    .div {
+        display: block;
+    }
+    .black, .hover-black:hover {
+        color: #fff!important;
+        background-color: #000!important;
+    }
+    .light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+        color: #000!important;
+        background-color: #f1f1f1!important;
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+      
+.element.style {
+    cursor: pointer;
+}
+.animate-opacity {
+    animation: opac 0.8s;
+}
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.div {display: block;}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+.img {
+    vertical-align: middle;
+}
+.img {
+    border-style: none;
+}
+
+.btn, .button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+} 
+
+
+
+
+
+        
